@@ -8,11 +8,11 @@ __pycache__/
 venv/
 env/
 .venv/
-.env/
+../.env/
 
 # --- Environment Variables (CRITICAL) ---
 # Never commit secrets/API keys. Use a .env.example instead.
-.env
+../.env
 .env.prod
 .env.dev
 .env.local

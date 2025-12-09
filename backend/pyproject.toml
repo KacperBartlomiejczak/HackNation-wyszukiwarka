@@ -5,5 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi[standard]>=0.123.10",
+    "fastapi[standard]>=0.123.9",
+    "numpy>=2.3.5",
+    "opencv-python>=4.11.0.86",
+    "pillow>=12.0.0",
+    "uvicorn>=0.23.2",
+    "grad-cam>=1.5.4",
+    "torch>=2.2.0",
+    "torchvision>=0.24.1",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["routes*", "services*"]
+
+# --- New Sections Below ---
+

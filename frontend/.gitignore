@@ -3,7 +3,12 @@
 # dependencies
 /node_modules
 /.pnp
+/.pnpm
 .pnp.*
+.pnpm.*
+.pnpm/*
+.pnpm-store/*
+.idea/*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

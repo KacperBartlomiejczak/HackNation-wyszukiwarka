@@ -18,7 +18,7 @@ env
 # --- Environment Variables (SECURITY) ---
 # Secrets should be passed via --env-file or platform secrets,
 # NOT baked into the image file system.
-.env
+../.env
 .env.*
 
 # --- Testing & Quality Assurance ---
